@@ -27,7 +27,7 @@ The server will run on the specified port, and you should see "Server is running
 **Router/orderRoutes.js:** Contains the Express routes for handling orders.<br>
 
 ## API Endpoints:
-Get All Pizzas
+**Get All Pizzas:** <br>
 URL: /api/pizzas
 Method: GET
 Description: Get a list of all pizzas.
