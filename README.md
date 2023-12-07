@@ -6,36 +6,37 @@ Welcome to the Pizza App project! This application allows users to manage and or
 
 ### Clone the repository:
 
-git clone https://github.com/your-username/pizza-app.git
-cd pizza-app
+**git clone** https://github.com/your-username/pizza-app.git <br> **cd** pizza-app
 
-Install dependencies:
+## Install dependencies:
 
-npm install
+**npm install**
 
-PORT=3000
-DB_CONNECTION_URL=mongodb://127.0.0.1:27017/pizza_app
-Start the server:
-npm start
+**PORT**=2000<br>**DB_CONNECTION_URL**=mongodb://127.0.0.1:27017/db_name
+
+## Start the server:
+
+ **npm start**
+
 The server will run on the specified port, and you should see "Server is running on http://localhost:3000" in the console.
 
 ## Project Structure:
 
-**index.js:** The main entry point of the application where the Express app is configured and the server is started.<br>
-**models/pizzaModel.js:** Defines the Mongoose schema for the pizzas collection.<br>
-**Router/pizzaRoutes.js:** Contains the Express routes for handling CRUD operations on the pizzas collection.****
-**Router/orderRoutes.js:** Contains the Express routes for handling orders.<br>
+* **index.js:** The main entry point of the application where the Express app is configured and the server is started.<br>
+* **models/pizzaModel.js:** Defines the Mongoose schema for the pizzas collection.<br>
+* **Router/pizzaRoutes.js:** Contains the Express routes for handling CRUD operations on the pizzas collection.<br>
+* **Router/orderRoutes.js:** Contains the Express routes for handling orders.
 
 ## API Endpoints:
-**Get All Pizzas:** <br>
-URL: /api/pizzas
-Method: GET
-Description: Get a list of all pizzas.
-Get Single Pizza
+
+**Get All Pizzas:** 
+<br>/api/pizzas/ <br>Method: GET <br>Description: Get a list of all pizzas.
+
+**Get Single Pizza**
 URL: /api/pizzas/:id
 Method: GET
 Description: Get details of a single pizza by its ID.
-Create a New Pizza
+**Create a New Pizza**
 URL: /api/pizzas
 Method: POST
 Description: Create a new pizza. Requires a JSON body with pizza details.
