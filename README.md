@@ -47,14 +47,11 @@ The server will run on the specified port, and you should see "Server is running
   "totalAmount": 12.99
 }
 
-**Get All Orders**
-<br>URL: /api/orders
-<brMethod: GET
-<brDescription: Get a list of all orders.
-Create a New Order
-URL: /api/orders
-Method: POST
-Description: Place a new order. Requires a JSON body with order details.
+**Get All Orders:**
+<br>URL: /api/orders <br>Method: GET <br>Description: Get a list of all orders.
+
+**Create a New Order**
+<br>URL: /api/orders <br>Method: POST <br>Description: Place a new order. Requires a JSON body with order details.
 
 **Example JSON body:** 
 
