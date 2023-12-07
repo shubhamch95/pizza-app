@@ -12,7 +12,7 @@ Welcome to the Pizza App project! This application allows users to manage and or
 
 **npm install**
 
-**PORT**=2000<br>**DB_CONNECTION_URL**=mongodb://127.0.0.1:27017/db_name
+**PORT**=3000<br>**DB_CONNECTION_URL**=mongodb://127.0.0.1:27017/db_name
 
 ## Start the server:
 
@@ -33,7 +33,7 @@ The server will run on the specified port, and you should see "Server is running
 <br> URL:/api/pizzas/ <br>Method: GET <br>Description: Get a list of all pizzas.
 
 **Get Single Pizza**
-<br> URL: /api/pizzas/:id <br>Method: GET <br>Description: Get details of a single pizza by its ID.
+<br> URL:/api/pizzas/:id <br>Method: GET <br>Description: Get details of a single pizza by its ID.
 
 **Create a New Pizza**
 URL: /api/pizzas
