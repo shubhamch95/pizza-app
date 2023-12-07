@@ -56,14 +56,13 @@ Create a New Order
 URL: /api/orders
 Method: POST
 Description: Place a new order. Requires a JSON body with order details.
+
 **Example JSON body:** 
 
 {
-  "customerName": "John Doe",<br>
-  "pizzas": ["pizzaId1", "pizzaId2"],<br>
-  "totalAmount": 25.99,<br>
-  "mobileNumber": 1234567890
+ "customerName": "John Doe",<br>"pizzas": ["pizzaId1",pizzaId2], <br>"totalAmount": 25.99,<br>"mobileNumber": 1234567890<br> 
 }
+
 ## Database Connection:
 The project uses Mongoose to connect to a MongoDB database. The connection URL is specified in the .env file.
 
