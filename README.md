@@ -37,20 +37,19 @@ Create a New Pizza
 URL: /api/pizzas
 Method: POST
 Description: Create a new pizza. Requires a JSON body with pizza details.
-Example JSON body:
 
-json
-Copy code
+**Example JSON body:** 
 {
-  "name": "Margherita",
-  "size": "medium",
-  "toppings": ["tomato sauce", "mozzarella", "basil"],
+  "name": "Margherita",<br>
+  "size": "medium",<br>
+  "toppings": ["tomato sauce", "mozzarella", "basil"],<br>
   "totalAmount": 12.99
 }
-Get All Orders
-URL: /api/orders
-Method: GET
-Description: Get a list of all orders.
+
+**Get All Orders**
+<br>URL: /api/orders
+<brMethod: GET
+<brDescription: Get a list of all orders.
 Create a New Order
 URL: /api/orders
 Method: POST
