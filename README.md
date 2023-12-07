@@ -36,9 +36,8 @@ The server will run on the specified port, and you should see "Server is running
 <br> URL:/api/pizzas/:id <br>Method: GET <br>Description: Get details of a single pizza by its ID.
 
 **Create a New Pizza**
-URL: /api/pizzas
-Method: POST
-Description: Create a new pizza. Requires a JSON body with pizza details.
+<br>URL: /api/pizzas <br>Method: POST <br>Description: Create a new pizza. Requires a JSON body with pizza details.
+
 
 **Example JSON body:** <br>
 {
