@@ -19,14 +19,14 @@ Start the server:
 npm start
 The server will run on the specified port, and you should see "Server is running on http://localhost:3000" in the console.
 
-##Project Structure:
+## Project Structure:
 
 **index.js:** The main entry point of the application where the Express app is configured and the server is started.<br>
 **models/pizzaModel.js:** Defines the Mongoose schema for the pizzas collection.<br>
 **Router/pizzaRoutes.js:** Contains the Express routes for handling CRUD operations on the pizzas collection.****
 **Router/orderRoutes.js:** Contains the Express routes for handling orders.<br>
 
-API Endpoints:
+## API Endpoints:
 Get All Pizzas
 URL: /api/pizzas
 Method: GET
@@ -40,7 +40,7 @@ URL: /api/pizzas
 Method: POST
 Description: Create a new pizza. Requires a JSON body with pizza details.
 
-**Example JSON body:** 
+**Example JSON body:** <br>
 {
   "name": "Margherita",<br>
   "size": "medium",<br>
