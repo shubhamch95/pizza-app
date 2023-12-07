@@ -30,12 +30,11 @@ The server will run on the specified port, and you should see "Server is running
 ## API Endpoints:
 
 **Get All Pizzas:** 
-<br>/api/pizzas/ <br>Method: GET <br>Description: Get a list of all pizzas.
+<br> URL:/api/pizzas/ <br>Method: GET <br>Description: Get a list of all pizzas.
 
 **Get Single Pizza**
-URL: /api/pizzas/:id
-Method: GET
-Description: Get details of a single pizza by its ID.
+<br> URL: /api/pizzas/:id <br>Method: GET <br>Description: Get details of a single pizza by its ID.
+
 **Create a New Pizza**
 URL: /api/pizzas
 Method: POST
