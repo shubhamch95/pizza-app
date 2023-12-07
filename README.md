@@ -21,10 +21,10 @@ The server will run on the specified port, and you should see "Server is running
 
 ##Project Structure:
 
-**index.js:** The main entry point of the application where the Express app is configured and the server is started.
-**models/pizzaModel.js:** Defines the Mongoose schema for the pizzas collection.
-**Router/pizzaRoutes.js:** Contains the Express routes for handling CRUD operations on the pizzas collection.
-**Router/orderRoutes.js:** Contains the Express routes for handling orders.
+**index.js:** The main entry point of the application where the Express app is configured and the server is started.<br>
+**models/pizzaModel.js:** Defines the Mongoose schema for the pizzas collection.<br>
+**Router/pizzaRoutes.js:** Contains the Express routes for handling CRUD operations on the pizzas collection.****
+**Router/orderRoutes.js:** Contains the Express routes for handling orders.<br>
 
 API Endpoints:
 Get All Pizzas
